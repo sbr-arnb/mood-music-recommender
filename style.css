@@ -1,0 +1,55 @@
+*   {
+    box-sizing: border-box;
+    font-family: arial, sans-seriff;
+}
+
+body {
+    background: linear-gradient(135ddeg, #1d2671, #c33764);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.container {
+    background: rgba(0, 0, 0, 4);
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.moods button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.moods button:hover {
+    transform: scale(1.05);
+}
+
+.result {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.result h3 {
+    margin-bottom: 8px;
+}

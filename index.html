@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+content="width+device-width
+intial-scale=1.0" />
+    <title>Mood Music Recommender</title>
+    <link rel="stylesheet"
+href="style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎧 Mood-Based Music Recommender</h1>
+        <p>How are you feeling right now?</p>
+
+        <div class="moods">
+            <button onclick="showmusic('happy')">😊 Happy
+            </button>
+            <button onclick="showmusic('sad')">😞 Sad</button>
+            <button onclick="showmusic('focused')">🎯 Focused</button>
+            <button onclick="showmusic('angry')">😡 Angry</button>
+        </div>
+        
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
